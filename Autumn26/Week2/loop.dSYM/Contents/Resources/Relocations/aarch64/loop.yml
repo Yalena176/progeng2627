@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yalena/Desktop/Autumn26/Week2/loop'
+relocations:     []
+...
