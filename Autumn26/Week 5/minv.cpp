@@ -5,9 +5,9 @@ int minv(const std::vector<int>& v){
     int i, ind, x;
     x = v[0];
     ind = 0;
-    for (i=1 ; i < v.size();i++){
+    for (i=0 ; i < v.size();i++){
         if(v[i] < x){
-            ind = i -1;
+            ind = i;
             x = v[i];
         }
     }
@@ -24,6 +24,7 @@ int main(){
         std::cout << "next number" << std::endl;
         std::cin >>y;
         v.push_back(y);
+        g++;
     }
     std::cout << minv(v);
 }
