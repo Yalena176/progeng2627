@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/yalena/Documents/GitHub/progeng2627/Autumn26/Week8/matrixmul'
+relocations:     []
+...
